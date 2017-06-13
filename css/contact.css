@@ -1,0 +1,29 @@
+.contactForm input[type="text"]
+{
+    width:40em;
+    height: 3em;
+    margin-bottom: 10px;
+}
+
+.contactForm textarea
+{
+    width:40em;
+    margin-bottom: 10px;
+}
+
+.contactForm .error
+{
+    margin:2px;
+    padding:0;
+    color: red;
+}
+
+.contactForm h3.error
+{
+    color: red;
+}
+
+.contactList td
+{
+    height: 2em;
+}
