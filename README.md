@@ -12,6 +12,10 @@
 - set correct accessrights
 Navigate to http://localhost
 
+## tested browsers
+- FF on Linux
+- Chrome on Linux
+
 
 
 
