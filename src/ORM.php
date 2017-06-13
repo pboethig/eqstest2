@@ -1,13 +1,10 @@
 <?php
-
 /**
- * Created by PhpStorm.
- * User: pboethig
- * Date: 13.06.17
- * Time: 01:04
- */
+* Simple ORM Class to handle DB Requests
+* @author: Peter Böthig<pboethig@gmail.com>
+*/
 class ORM
-{
+{ 
     /**
      * @var array
      */
@@ -91,6 +88,7 @@ class ORM
     }
 
     /**
+     * Get all entries
      * @return array
      */
     public function all()
