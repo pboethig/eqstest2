@@ -18,7 +18,7 @@ class Contact extends \ORM
      *
      * @var array
      */
-    protected $fillableFields = ['firstname', 'lastname', 'email', 'message'];
+    public $fillableFields = ['firstname', 'lastname', 'email',  'entrydate', 'message'];
 
     /**
      * @var string
@@ -39,6 +39,10 @@ class Contact extends \ORM
      * @var string
      */
     public $message;
+    /**
+     * @var string
+     */
+    public $entrydate;
 
     /**
      * @var string

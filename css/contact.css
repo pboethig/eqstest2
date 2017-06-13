@@ -27,3 +27,8 @@
 {
     height: 2em;
 }
+
+.contactItem
+{
+    float: left; width: 5.7em; height: 2em;
+}

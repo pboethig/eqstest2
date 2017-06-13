@@ -9,7 +9,7 @@ class DatabaseConfig
     /**
      * @var string
      */
-    public $host = "localhost";
+    public $host = "mysql";
 
     /**
      * @var string
@@ -29,5 +29,5 @@ class DatabaseConfig
     /**
      * @var string
      */
-    public $password="Start123";
+    public $password="root";
 }

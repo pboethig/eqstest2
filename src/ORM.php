@@ -8,7 +8,7 @@ class ORM
     /**
      * @var array
      */
-    protected $fillableFields=[];
+    public $fillableFields=[];
 
     /**
      * @var Database
