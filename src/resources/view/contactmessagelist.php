@@ -1,6 +1,6 @@
 <?php
 /**
- * Output of the all contactmessages
+ * Output of all contactmessages
  * @author: peter böthig<pboethig@gmail.com>
  */
 ?>
