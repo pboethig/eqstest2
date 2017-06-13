@@ -23,12 +23,17 @@
     color: red;
 }
 
-.contactList td
-{
-    height: 2em;
-}
-
 .contactItem
 {
     float: left; width: 5.7em; height: 2em;
+}
+
+.contactItemData
+{
+    border-bottom: 1px dashed silver;
+}
+
+.itemRuler
+{
+    border-bottom: 1px solid lightgrey;
 }

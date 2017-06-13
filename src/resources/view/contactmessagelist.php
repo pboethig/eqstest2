@@ -11,7 +11,7 @@
 <?php endif;?>
 <?php foreach ($contacts->all() as $contact):?>
     <?php foreach ($contacts->fillableFields as $field):?>
-        <p class="contactItem"><strong><?php echo ucfirst($field)?>: </strong></p><p style="border-bottom: 1px dashed silver"><?php echo $contact[$field] ?></p>
+        <p class="contactItem"><strong><?php echo ucfirst($field)?>: </strong></p><p class="contactItemData"><?php echo $contact[$field] ?></p>
     <?php endforeach;?>
-    <hr style="border-bottom: 1px solid lightgrey">
+    <hr class="itemRuler">
 <?php endforeach;?>
